@@ -35,8 +35,14 @@
   .works-nav li {
     margin-right: em(40);
   }
+  .works-logo {
+    height: 5rem;
+    img {
+      max-height: 90%;
+    }
+  }
   .works-item {
-    height: 280px;
+    height: 235px;
   }
   .project {
     padding: 0;
@@ -297,6 +303,15 @@
   .fancybox-close {
     right: 4px;
     top: 4px;
+  }
+  .project-wrap {
+    padding-top: 1em;
+  }
+  .project-logo {
+    padding: 2em 0;
+  }
+  .contacts {
+    padding-top: 2em;
   }
 }
 
